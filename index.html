@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="DESCRIPTION META TAG">
+  <meta property="og:title" content="SOCIAL MEDIA TITLE TAG"/>
+  <meta property="og:description" content="SOCIAL MEDIA DESCRIPTION TAG TAG"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="TWITTER BANNER TITLE META TAG">
+  <meta name="twitter:description" content="TWITTER BANNER DESCRIPTION META TAG">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="KEYWORDS SHOULD BE PLACED HERE">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>Adapting to Distribution Shift by Visual Domain Prompt Generation</title>
+  <link rel="icon" type="image/x-icon" href="static/images/logo512.png">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+
+
+<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+<body>
+
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Adapting to Distribution Shift by Visual Domain Prompt Generation</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                Zhixiang Chi</a><sup>1*</sup>,</span>
+                <span class="author-block">
+                  Li Gu</a><sup>2*</sup>,</span>
+                  <span class="author-block">
+                    Tao Zhong</a><sup>1</sup>,</span>
+					<span class="author-block">
+                    Huan Liu</a><sup>3</sup>,</span>
+					<span class="author-block">
+                    Yuanhao Yu</a><sup>3</sup></span>
+					<span class="author-block">
+                    Konstantinos N Plataniotis</a><sup>1</sup></span>
+					<span class="author-block">
+                    Yang Wang</a><sup>2</sup></span>
+                  </span>
+                  </div>
+
+                  <div class="is-size-5 publication-authors">
+                    <span class="author-block"><sup>1</sup>University of Toronto, <sup>2</sup>Concordia University,<sup>3</sup>McMaster University
+					<br>ICLR 2024 </span>
+                    <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span>
+                  </div>
+
+                  <div class="column has-text-centered">
+                    <div class="publication-links">
+                         <!-- Arxiv PDF link -->
+                      <span class="link-block">
+                        <a href="https://openreview.net/pdf?id=sSaN4gxuEf" target="_blank"
+                        class="external-link button is-normal is-rounded is-dark">
+                        <span class="icon">
+                          <i class="fas fa-file-pdf"></i>
+                        </span>
+                        <span>Paper</span>
+                      </a>
+                    </span>
+
+                    <!-- Supplementary PDF link -->
+                    <span class="link-block">
+                      <a href="https://openreview.net/forum?id=sSaN4gxuEf&referrer=%5BAuthor%20Console%5D(%2Fgroup%3Fid%3DICLR.cc%2F2024%2FConference%2FAuthors%23your-submissions)" target="_blank"
+                      class="external-link button is-normal is-rounded is-dark">
+                      <span class="icon">
+                        <i class="fas fa-file-pdf"></i>
+                      </span>
+                      <span>OpenReview</span>
+                    </a>
+                  </span>
+
+                  <!-- Github link -->
+                  <span class="link-block">
+                    <a href="https://github.com/Guliisgreat/FSTT-DA" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fab fa-github"></i>
+                    </span>
+                    <span>Code (Coming soon)</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <!-- <span class="link-block"> -->
+                  <!-- <a href="https://arxiv.org/pdf/2312.10165.pdf<ARXIV PAPER ID>" target="_blank" -->
+                  <!-- class="external-link button is-normal is-rounded is-dark"> -->
+                  <!-- <span class="icon"> -->
+                    <!-- <i class="ai ai-arxiv"></i> -->
+                  <!-- </span> -->
+                  <!-- <span>arXiv</span> -->
+                <!-- </a> -->
+              <!-- </span> -->
+			  
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Teaser video-->
+<!-- <section class="hero teaser"> -->
+  <!-- <div class="container is-max-desktop"> -->
+    <!-- <div class="hero-body"> -->
+      <!-- <h2 class="subtitle has-text-centered"> -->
+        <!-- Aliquam vitae elit ullamcorper tellus egestas pellentesque. Ut lacus tellus, maximus vel lectus at, placerat pretium mi. Maecenas dignissim tincidunt vestibulum. Sed consequat hendrerit nisl ut maximus.  -->
+      <!-- </h2> -->
+	  <!-- <video poster="" id="tree" autoplay controls muted loop height="100%"> -->
+        <!-- Your video here -->
+        <!-- <source src="static/videos/banner_video.mp4" -->
+        <!-- type="video/mp4"> -->
+      <!-- </video> -->
+    <!-- </div> -->
+  <!-- </div> -->
+<!-- </section> -->
+<!-- End teaser video -->
+
+<!-- Paper abstract -->
+<hr>
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Abstract</h2>
+        <div class="content has-text-justified">
+          <p>
+            In this paper, we aim to adapt a model at test-time using a few unlabeled data to address distribution shifts. 
+To tackle the challenges of extracting domain knowledge from a limited amount of data, it is crucial to utilize correlated information from pre-trained backbones and source domains. Previous studies fail to utilize recent foundation models with strong out-of-distribution generalization. Additionally, domain-centric designs are not flavored in their works. Furthermore, they employ the process of modelling source domains and the process of learning to adapt independently into disjoint training stages. In this work, we propose an approach on top of the pre-computed features of the foundation model. Specifically, we build a knowledge bank to learn the transferable knowledge from source domains. Conditioned on few-shot target data, we introduce a domain prompt generator to condense the knowledge bank into a domain-specific prompt. The domain prompt then directs the visual features towards a particular domain via a guidance module. Moreover, we propose a domain-aware contrastive loss and employ meta-learning to facilitate domain knowledge extraction. Extensive experiments are conducted to validate the domain knowledge extraction. The proposed method outperforms previous work on 5 large-scale benchmarks including WILDS and DomainNet. 
+			</p>
+        </div>
+		
+		
+		
+		
+		
+		
+		
+		<hr>
+		<h2 class="title is-3">Problem Setting</h2>
+		<!-- Your image here -->
+		<img src="static/images/setting.png" alt="MY ALT TEXT" class="center-img"/>
+		
+		<br>
+		<div class="content has-text-justified">
+          <p>
+			
+		    <br>In this work, we focus on the problem of Test-time Domain Adaptation (TTDA) or Few-shot TTDA, which somehow combines UDA and DG. It follows the source-free setting as in DG but requires an additional learning phase at test-time for each of the target domain: when an unseen target domain is encountered at test-time, a few unlabeled images are sampled to update the model towards that domain. The adapted model is then used for testing the data in that domain (as shown in the figure above). 
+          </p>
+        </div>
+		
+		
+		
+		<!-- <hr> -->
+		<!-- <h2 class="title is-3">Motivation</h2> -->
+		<!-- Your image here -->
+		<!-- <img src="static/images/motivation.png" alt="MY ALT TEXT" class="center-img"/> -->
+		
+		<!-- <br> -->
+		<!-- <div class="content has-text-justified"> -->
+          <!-- <p> -->
+			<!-- <br>Our work is partly inspired by the observation that the weight matrix tends to encapsulate label information, while domain-specific knowledge is embedded within the BN layer. We propose a strategic manipulation of the BN layer to optimize the acquisition and transference of domain-specific knowledge. The BN layer normalizes the input feature followed by re-scaling and shifting using two affine parameters. However, the normalization statistics computed for the target domain under TT-DA can be unstable since we only have a small batch of examples from the target domain. Instead, we propose to only adapt the two affine parameters while directly using the normalization statistics learned from source domains during training. We further use self-supervised learning method to update the affines on unlabeled target data. -->
+			<!-- </p> -->
+        <!-- </div> -->
+		
+		
+		
+		<hr>
+		<h2 class="title is-3">Method Overview</h2>
+		<!-- Your image here -->
+		<img src="static/images/overview.png" alt="MY ALT TEXT" class="center-img"/>
+		
+		<br>
+		<div class="content has-text-justified">
+          <p>
+			<br>Overview of training pipeline of VDPG. Two disjoint support and query sets are sampled from a training domain. The support set is passed to a domain prompt generator to condense the learned knowledge bank into a domain-specific prompt. The generated prompt is then evaluated on the query set by guiding their feature via a guidance module. Noted, the image/prompt with the same colour belongs to the same domain.
+			</p>
+        </div>
+		
+		<hr>
+		<h2 class="title is-3">Experimental Results</h2>
+		<!-- Your image here -->
+		<img src="static/images/table_1.png" alt="MY ALT TEXT" class="center-img"/>
+		
+		<div class="content has-text-justified">
+          <p>
+			Comparison with the state-of-the-arts on the WILDS benchmark under the out-of-distribution setting. 
+			</p>
+        </div>
+		
+		
+		<!-- Your image here -->
+		<img src="static/images/table_2.png" alt="MY ALT TEXT" class="center-img"/>
+		
+		<div class="content has-text-justified">
+          <p>
+			Comparison with the state-of-the-arts on the DomainNet benchmark under the leave-one-out setting. 
+			</p>
+        </div>
+		
+		<!-- Your image here -->
+		<!-- <img src="static/images/prompt.png" alt="MY ALT TEXT" class="center-img"/> -->
+		
+		<!-- <div class="content has-text-justified"> -->
+          <!-- <p> -->
+			<!-- Comparison among generated domain prompts on 48 target domains in iWildCam. -->
+			<!-- </p> -->
+        <!-- </div> -->
+		
+		
+		<hr>
+		<img src="static/images/prompt_swap.png" alt="MY ALT TEXT" class="center-img"/>
+		
+		<div class="content has-text-justified">
+          <p>
+			Swapping the generated domain prompts with various similarity for domain #40 and #47.
+			</p>
+        </div>
+		
+		
+		<hr>
+		<h2 class="title is-3">Visualization</h2>
+		<!-- Your image here -->
+		<img src="static/images/visual.png" alt="MY ALT TEXT" class="center-img"/>
+		
+        </div>
+		
+		<!--End BibTex citation -->
+		
+		<!-- <footer class="footer"> -->
+		  <!-- <div class="container"> -->
+			<!-- <div class="columns is-centered"> -->
+			  <!-- <div class="column is-8"> -->
+				<!-- <div class="content"> -->
+
+				  <!-- <p> -->
+					<!-- Add the footer/contact -->
+				  <!-- </p> -->
+
+				<!-- </div> -->
+			  <!-- </div> -->
+			<!-- </div> -->
+		  <!-- </div> -->
+		<!-- </footer> -->
+        
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr>
+		<!--BibTex citation -->
+		<section class="section" id="BibTeX">
+		<div class="container is-max-desktop content">
+		  <h2 class="title">Citation</h2>
+		  <pre><code>@InProceedings{chi_2024_ICLR,
+		   title={Adapting to Distribution Shift by Visual Domain Prompt Generation},
+		   author={Zhixiang Chi, Li Gu, Tao Zhong, Huan Liu, Yuanhao Yu, Konstantinos N Plataniotis, Yang Wang},
+		   booktitle={Proceedings of the Twelfth International Conference on Learning Representations},
+		   year={2024}}</code></pre>
+		</div>
+		</section>
+
+<footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+          <p>
+            This website is licensed under a <a rel="license"
+                                                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+          <p>
+            This website template was adapted from <a href="https://nerfies.github.io/">Nerfies website</a>. 
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+
+  </body>
+  </html>
